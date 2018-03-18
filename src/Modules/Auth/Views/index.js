@@ -1,7 +1,8 @@
 import React from "react"
+import AuthTabs from "../components/AuthTabs"
 
 const Index = () => (
-    <p>At some point in time this will be a login page. (And probably some registering as well!)</p>
+    <AuthTabs/>
 )
 
 export default Index

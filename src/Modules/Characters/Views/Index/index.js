@@ -1,7 +1,8 @@
 import React from "react"
+import CharacterGrid from "../../components/CharacterGrid"
 
 const Index = () => (
-    <p>Here's where your characters will appear!</p>
+    <CharacterGrid/>
 )
 
 export default Index

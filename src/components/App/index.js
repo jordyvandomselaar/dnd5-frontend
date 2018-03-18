@@ -2,8 +2,8 @@ import React from "react"
 import Main from "../Layouts/Main"
 import {BrowserRouter, Route} from "react-router-dom"
 import Index from "../../modules/Home/Views/Index"
-import CharactersIndex from "../../modules/Characters/Views/Index"
-import LoginIndex from "../../modules/Auth/Views"
+import CharactersIndex from "../../modules/characters/views/Index"
+import LoginIndex from "../../modules/auth/Views"
 
 const App = () => (
     <BrowserRouter>
