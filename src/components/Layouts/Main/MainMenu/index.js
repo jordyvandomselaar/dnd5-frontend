@@ -9,10 +9,16 @@ const StyledDrawer = styled(Drawer)`
   height: 100%;
 `
 
+const StyledListItem = styled(ListItem)`
+  &:hover {
+    cursor: pointer;
+  }
+`
+
 const LinkItem = withRouter(({url, children, history}) => (
-    <ListItem onClick={
+    <StyledListItem onClick={
         () => history.push(url)
-    }>{children}</ListItem>
+    }>{children}</StyledListItem>
 ))
 
 const MainMenu = () => (
