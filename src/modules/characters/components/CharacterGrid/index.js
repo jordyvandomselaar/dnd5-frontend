@@ -8,22 +8,22 @@ const character = new Character(1, "Gentoo", "https://static1.squarespace.com/st
 
 const CharacterGrid = () => (
     <GridList>
-        <CharacterGridItem character={character}/>
-        <CharacterGridItem character={character}/>
-        <CharacterGridItem character={character}/>
-        <CharacterGridItem character={character}/>
-        <CharacterGridItem character={character}/>
-        <CharacterGridItem character={character}/>
-        <CharacterGridItem character={character}/>
-        <CharacterGridItem character={character}/>
-        <CharacterGridItem character={character}/>
-        <CharacterGridItem character={character}/>
-        <CharacterGridItem character={character}/>
-        <CharacterGridItem character={character}/>
-        <CharacterGridItem character={character}/>
-        <CharacterGridItem character={character}/>
-        <CharacterGridItem character={character}/>
         <NewCharacterGridItem/>
+        <CharacterGridItem character={character}/>
+        <CharacterGridItem character={character}/>
+        <CharacterGridItem character={character}/>
+        <CharacterGridItem character={character}/>
+        <CharacterGridItem character={character}/>
+        <CharacterGridItem character={character}/>
+        <CharacterGridItem character={character}/>
+        <CharacterGridItem character={character}/>
+        <CharacterGridItem character={character}/>
+        <CharacterGridItem character={character}/>
+        <CharacterGridItem character={character}/>
+        <CharacterGridItem character={character}/>
+        <CharacterGridItem character={character}/>
+        <CharacterGridItem character={character}/>
+        <CharacterGridItem character={character}/>
     </GridList>
 )
 

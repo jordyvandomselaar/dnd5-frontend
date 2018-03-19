@@ -7,6 +7,7 @@ const Content = styled.div`
   display: flex;
   flex-direction: column;
   padding: 10px;
+  overflow: auto;
 `
 
 const Root = styled.div`
@@ -16,11 +17,12 @@ const Root = styled.div`
     top: 0;
     bottom: 0;
     display: flex;
+    overflow: hidden;
 `
 
 const Main = ({children}) => (
     <Root>
-        <MainMenu></MainMenu>
+        <MainMenu/>
         <Content>
             {children}
         </Content>

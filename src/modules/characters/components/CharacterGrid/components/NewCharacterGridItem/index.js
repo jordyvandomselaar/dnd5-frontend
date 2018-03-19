@@ -10,7 +10,7 @@ const IconContainer = styled.div`
   align-items: center;
   
   & > i {
-      font-size: 50px;
+      font-size: 60px;
       pointer-events: none;
   }
   

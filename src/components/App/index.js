@@ -1,16 +1,16 @@
 import React from "react"
 import Main from "../Layouts/Main"
-import {BrowserRouter, Route} from "react-router-dom"
-import Index from "../../modules/Home/Views/Index"
-import CharactersIndex from "../../modules/characters/views/Index"
-import LoginIndex from "../../modules/auth/Views"
+import {BrowserRouter} from "react-router-dom"
+import AuthModule from "../../modules/auth/Module"
+import CharactersModule from "../../modules/characters/Module"
+import HomeModule from "../../modules/Home/Module"
 
 const App = () => (
     <BrowserRouter>
         <Main>
-            <Route exact path="/" component={Index}/>
-            <Route exact path="/characters" component={CharactersIndex}/>
-            <Route exact path="/login" component={LoginIndex}/>
+            <HomeModule/>
+            <AuthModule/>
+            <CharactersModule/>
         </Main>
     </BrowserRouter>
 )
