@@ -3,7 +3,7 @@ import Main from "../Layouts/Main"
 import {BrowserRouter} from "react-router-dom"
 import AuthModule from "../../modules/auth/Module"
 import CharactersModule from "../../modules/characters/Module"
-import HomeModule from "../../modules/Home/Module"
+import HomeModule from "../../modules/home/Module"
 
 const App = () => (
     <BrowserRouter>
