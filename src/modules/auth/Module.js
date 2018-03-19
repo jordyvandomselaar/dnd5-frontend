@@ -1,3 +1,5 @@
+// @flow
+
 import React, {Fragment} from "react"
 import {Route} from "react-router-dom"
 import Login from "./Views"

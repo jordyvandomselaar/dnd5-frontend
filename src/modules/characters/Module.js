@@ -1,3 +1,5 @@
+// @flow
+
 import React, {Fragment} from "react"
 import Index from "./views/Index"
 import {Route} from "react-router-dom"

@@ -1,7 +1,10 @@
+// @flow
+
 import React from "react"
 import {GridTile, GridTilePrimary, GridTilePrimaryContent, GridTileSecondary, GridTileTitle} from "rmwc/GridList/index"
 import {Link} from "react-router-dom"
 import styled from "styled-components"
+import Character from "../../../../Entities/Character"
 
 const CharacterImage = styled.img`
   height: 100%;
@@ -10,8 +13,7 @@ const CharacterImage = styled.img`
   object-fit: cover;
 `
 
-
-const CharacterGridItem = ({character}) => (
+const CharacterGridItem = ({character}: { character: Character }) => (
     <GridTile>
         <GridTilePrimary>
             <GridTilePrimaryContent>

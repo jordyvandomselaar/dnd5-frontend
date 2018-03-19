@@ -1,6 +1,7 @@
+// @flow
+
 import React from "react"
 import {Drawer, DrawerContent, DrawerHeader} from "rmwc/Drawer"
-
 import {List, ListItem} from "rmwc/List"
 import styled from "styled-components"
 import {withRouter} from "react-router-dom"

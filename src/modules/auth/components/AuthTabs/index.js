@@ -1,10 +1,22 @@
+// @flow
+
 import React, {Component, Fragment} from "react"
 import {Tab, TabBar} from "rmwc/Tabs"
 import Register from "./views/Register"
 import Login from "./views/Login"
 
-class AuthTabs extends Component {
-    constructor(props) {
+type State = {
+    activeTab: number
+}
+
+type Props = {}
+
+class AuthTabs extends Component<Props, State> {
+    state: {
+        activeTab: number
+    }
+
+    constructor(props: {}) {
         super(props)
 
         this.state = {

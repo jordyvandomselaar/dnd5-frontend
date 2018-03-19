@@ -1,3 +1,5 @@
+// @flow
+
 import React from "react"
 import {GridTile, GridTilePrimary, GridTilePrimaryContent} from "rmwc/GridList"
 import {Ripple} from "rmwc/Ripple"

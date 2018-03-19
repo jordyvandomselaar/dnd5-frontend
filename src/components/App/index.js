@@ -1,3 +1,5 @@
+// @flow
+
 import React from "react"
 import Main from "../Layouts/Main"
 import {BrowserRouter} from "react-router-dom"

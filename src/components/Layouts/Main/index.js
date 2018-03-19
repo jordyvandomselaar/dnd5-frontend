@@ -1,3 +1,5 @@
+// @flow
+
 import React from "react"
 import MainMenu from "./MainMenu"
 import "material-components-web/dist/material-components-web.css"
