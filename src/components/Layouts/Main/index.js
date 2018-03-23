@@ -1,5 +1,6 @@
 // @flow
 
+import type {Node} from "react"
 import React from "react"
 import MainMenu from "./MainMenu"
 import "material-components-web/dist/material-components-web.css"
@@ -22,7 +23,11 @@ const Root = styled.div`
     overflow: hidden;
 `
 
-const Main = ({children}) => (
+type Props = {
+    children: Array<Node>
+}
+
+const Main = ({children}: Props) => (
     <Root>
         <MainMenu/>
         <Content>
