@@ -1,9 +1,10 @@
 import React, {Fragment} from "react";
 import {TextField} from "rmwc/TextField/index";
 
-const BasicInformation = () => (
+const Basic = () => (
     <Fragment>
         <h2>Some basic information</h2>
+
         <TextField required label="Character name"/>
         <TextField required label="Class"/>
         <TextField required label="Level"/>
@@ -14,4 +15,4 @@ const BasicInformation = () => (
     </Fragment>
 );
 
-export default BasicInformation;
+export default Basic;

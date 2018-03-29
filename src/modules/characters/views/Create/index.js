@@ -1,18 +1,22 @@
 // @flow
 
 import React, {Fragment} from "react";
-import BasicInformation from "./views/BasicInformation";
+import Basic from "./views/Basic";
 import Stats from "./views/Stats";
 import Skills from "./views/Skills";
+import BattleRelated from "./views/BattleRelated";
+import Personal from "./views/Personal";
 
 const Create = () => (
     <Fragment>
         <h1>Let's create a new character</h1>
 
         <form action="">
-            <BasicInformation/>
+            <Basic/>
             <Stats/>
             <Skills/>
+            <BattleRelated/>
+            <Personal/>
         </form>
     </Fragment>
 );

@@ -4,6 +4,7 @@ import {TextField} from "rmwc/TextField/index";
 const Stats = () => (
     <Fragment>
         <h2>Stats, how strong or smart are you?</h2>
+
         <TextField required label="Strength"/>
         <TextField required label="Dexterity"/>
         <TextField required label="Constitution"/>
