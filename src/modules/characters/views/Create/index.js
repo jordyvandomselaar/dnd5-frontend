@@ -3,7 +3,7 @@
 import React from "react";
 
 const Create = () => (
-    <p>Hi!</p>
+    <p>Create!</p>
 );
 
 export default Create;
