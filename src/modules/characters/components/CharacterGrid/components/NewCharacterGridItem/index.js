@@ -1,6 +1,5 @@
 // @flow
 
-import type {Element} from "react";
 import React from "react";
 import {GridTile, GridTilePrimary, GridTilePrimaryContent} from "rmwc/GridList";
 import {Ripple} from "rmwc/Ripple";
@@ -28,7 +27,7 @@ const StyledLink = styled(Link)`
   }
 `;
 
-const NewCharacterGridItem = (): Element<GridTile> => (
+const NewCharacterGridItem = (): React$Element<typeof GridTile> => (
     <GridTile>
         <Ripple>
             <GridTilePrimary>
