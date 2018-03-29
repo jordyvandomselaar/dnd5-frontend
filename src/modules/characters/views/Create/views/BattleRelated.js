@@ -5,10 +5,10 @@ const BattleRelated = () => (
     <Fragment>
         <h2>Battle related information, are you a latex or a platemail kind of person?</h2>
 
-        <TextField required label="Armor Class"></TextField>
-        <TextField required label="Initiative"></TextField>
-        <TextField required label="Speed"></TextField>
-        <TextField required label="Max Hitpoints"></TextField>
+        <TextField required label="Armor Class"/>
+        <TextField required label="Initiative"/>
+        <TextField required label="Speed"/>
+        <TextField required label="Max Hitpoints"/>
     </Fragment>
 );
 

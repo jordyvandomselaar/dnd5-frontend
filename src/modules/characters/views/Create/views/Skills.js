@@ -27,39 +27,39 @@ const Skills = () => (
                 <tbody>
                     <tr>
                         <td><TextField required label="Acrobatics (dex)"/></td>
-                        <td><Checkbox label="Trained"></Checkbox></td>
+                        <td><Checkbox label="Trained"/></td>
                     </tr>
                     <tr>
                         <td><TextField required label="Animal handling (Wis)"/></td>
-                        <td><Checkbox label="Trained"></Checkbox></td>
+                        <td><Checkbox label="Trained"/></td>
                     </tr>
                     <tr>
                         <td><TextField required label="Arcana (int)"/></td>
-                        <td><Checkbox label="Trained"></Checkbox></td>
+                        <td><Checkbox label="Trained"/></td>
                     </tr>
                     <tr>
                         <td><TextField required label="Athletics (str)"/></td>
-                        <td><Checkbox label="Trained"></Checkbox></td>
+                        <td><Checkbox label="Trained"/></td>
                     </tr>
                     <tr>
                         <td><TextField required label="Deception (cha)"/></td>
-                        <td><Checkbox label="Trained"></Checkbox></td>
+                        <td><Checkbox label="Trained"/></td>
                     </tr>
                     <tr>
                         <td><TextField required label="History (int)"/></td>
-                        <td><Checkbox label="Trained"></Checkbox></td>
+                        <td><Checkbox label="Trained"/></td>
                     </tr>
                     <tr>
                         <td><TextField required label="Insight (Wis)"/></td>
-                        <td><Checkbox label="Trained"></Checkbox></td>
+                        <td><Checkbox label="Trained"/></td>
                     </tr>
                     <tr>
                         <td><TextField required label="Intimidation (cha)"/></td>
-                        <td><Checkbox label="Trained"></Checkbox></td>
+                        <td><Checkbox label="Trained"/></td>
                     </tr>
                     <tr>
                         <td><TextField required label="Investigation (int)"/></td>
-                        <td><Checkbox label="Trained"></Checkbox></td>
+                        <td><Checkbox label="Trained"/></td>
                     </tr>
                 </tbody>
             </table>
@@ -74,39 +74,39 @@ const Skills = () => (
                 <tbody>
                     <tr>
                         <td><TextField required label="Medicine (Wis)"/></td>
-                        <td><Checkbox label="Trained"></Checkbox></td>
+                        <td><Checkbox label="Trained"/></td>
                     </tr>
                     <tr>
                         <td><TextField required label="Nature (int)"/></td>
-                        <td><Checkbox label="Trained"></Checkbox></td>
+                        <td><Checkbox label="Trained"/></td>
                     </tr>
                     <tr>
                         <td><TextField required label="Perception (Wis)"/></td>
-                        <td><Checkbox label="Trained"></Checkbox></td>
+                        <td><Checkbox label="Trained"/></td>
                     </tr>
                     <tr>
                         <td><TextField required label="Performance (cha)"/></td>
-                        <td><Checkbox label="Trained"></Checkbox></td>
+                        <td><Checkbox label="Trained"/></td>
                     </tr>
                     <tr>
                         <td><TextField required label="Persuasion (cha)"/></td>
-                        <td><Checkbox label="Trained"></Checkbox></td>
+                        <td><Checkbox label="Trained"/></td>
                     </tr>
                     <tr>
                         <td><TextField required label="Religion (int)"/></td>
-                        <td><Checkbox label="Trained"></Checkbox></td>
+                        <td><Checkbox label="Trained"/></td>
                     </tr>
                     <tr>
                         <td><TextField required label="Sleight of hand (dex)"/></td>
-                        <td><Checkbox label="Trained"></Checkbox></td>
+                        <td><Checkbox label="Trained"/></td>
                     </tr>
                     <tr>
                         <td><TextField required label="Stealth (dex)"/></td>
-                        <td><Checkbox label="Trained"></Checkbox></td>
+                        <td><Checkbox label="Trained"/></td>
                     </tr>
                     <tr>
                         <td><TextField required label="Survival (Wis)"/></td>
-                        <td><Checkbox label="Trained"></Checkbox></td>
+                        <td><Checkbox label="Trained"/></td>
                     </tr>
                 </tbody>
             </table>
