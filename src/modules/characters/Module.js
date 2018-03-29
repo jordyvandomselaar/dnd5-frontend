@@ -9,9 +9,9 @@ import Create from "./views/Create";
 const Module = () => (
     <Fragment>
         <Route exact path="/characters" component={Index}/>
-        <Route exact path="/characters/:id" component={Show}></Route>
-        <Route exact path="/characters/new" component={Create}></Route>
+        <Route exact path="/characters/:id" component={Show}/>
+        <Route exact path="/characters/new" component={Create}/>
     </Fragment>
-)
+);
 
-export default Module
+export default Module;
