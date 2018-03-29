@@ -4,7 +4,7 @@ import React from "react"
 import {TextField} from "rmwc/TextField"
 import {Button} from "rmwc/Button"
 
-const Register = () => (
+const Register = (): React$Element<"form"> => (
     <form action="#">
         <div>
             <TextField required label="E-mail" type="email"/>

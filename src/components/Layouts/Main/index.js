@@ -27,7 +27,7 @@ type Props = {
     children: Array<Node>
 }
 
-const Main = ({children}: Props) => (
+const Main = ({children}: Props): React$Element<typeof Root> => (
     <Root>
         <MainMenu/>
         <Content>

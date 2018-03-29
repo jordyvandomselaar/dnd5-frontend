@@ -7,7 +7,7 @@ import AuthModule from "../../modules/auth/Module"
 import CharactersModule from "../../modules/characters/Module"
 import HomeModule from "../../modules/home/Module"
 
-const App = () => (
+const App = (): React$Element<typeof Main> => (
     <BrowserRouter>
         <Main>
             <HomeModule/>

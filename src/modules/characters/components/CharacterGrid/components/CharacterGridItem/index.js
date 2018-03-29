@@ -13,7 +13,7 @@ const CharacterImage = styled.img`
   object-fit: cover;
 `
 
-const CharacterGridItem = ({character}: { character: Character }) => (
+const CharacterGridItem = ({character}: { character: Character }): React$Element<typeof GridTile> => (
     <GridTile>
         <GridTilePrimary>
             <GridTilePrimaryContent>

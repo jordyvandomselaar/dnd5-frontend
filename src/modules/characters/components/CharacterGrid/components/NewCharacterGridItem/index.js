@@ -1,5 +1,6 @@
 // @flow
 
+import type {Element} from "react"
 import React from "react"
 import {GridTile, GridTilePrimary, GridTilePrimaryContent} from "rmwc/GridList"
 import {Ripple} from "rmwc/Ripple"
@@ -21,7 +22,7 @@ const IconContainer = styled.div`
   }
 `
 
-const NewCharacterGridItem = () => (
+const NewCharacterGridItem = (): Element<GridTile> => (
     <GridTile>
         <Ripple>
             <GridTilePrimary>

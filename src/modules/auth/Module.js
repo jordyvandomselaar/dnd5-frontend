@@ -4,7 +4,7 @@ import React, {Fragment} from "react"
 import {Route} from "react-router-dom"
 import Login from "./Views"
 
-const Module = () => (
+const Module = (): React$Element<typeof Fragment> => (
     <Fragment>
         <Route exact path="/login" component={Login}/>
     </Fragment>

@@ -24,7 +24,7 @@ class AuthTabs extends Component<Props, State> {
         }
     }
 
-    getActiveTab() {
+    getActiveTab(): React$Element<typeof Register> | React$Element<typeof Login> {
         if (this.state.activeTab === 1) {
             return <Register/>
         }
@@ -32,7 +32,7 @@ class AuthTabs extends Component<Props, State> {
         return <Login/>
     }
 
-    render() {
+    render(): React$Element<typeof Fragment> {
         return (
             <Fragment>
                 <TabBar

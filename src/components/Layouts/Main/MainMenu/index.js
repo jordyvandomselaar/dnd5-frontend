@@ -1,5 +1,6 @@
 // @flow
 
+import type {Element} from "react"
 import React from "react"
 import {Drawer, DrawerContent, DrawerHeader} from "rmwc/Drawer"
 import {List, ListItem} from "rmwc/List"
@@ -22,7 +23,7 @@ const LinkItem = withRouter(({url, children, history}) => (
     }>{children}</StyledListItem>
 ))
 
-const MainMenu = () => (
+const MainMenu = (): React$Element<typeof StyledDrawer> => (
     <StyledDrawer permanent>
         <DrawerHeader>Menu</DrawerHeader>
         <DrawerContent>
