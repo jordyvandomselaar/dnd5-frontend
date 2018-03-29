@@ -1,17 +1,19 @@
 // @flow
 
-import type {Node} from "react"
-import React from "react"
-import MainMenu from "./MainMenu"
-import "material-components-web/dist/material-components-web.css"
-import styled from "styled-components"
+import type {Node} from "react";
+import React from "react";
+import MainMenu from "./MainMenu";
+import "material-components-web/dist/material-components-web.css";
+import styled from "styled-components";
 
 const Content = styled.div`
   display: flex;
   flex-direction: column;
   padding: 10px;
   overflow: auto;
-`
+  width: 100%;
+  height: 100%;
+`;
 
 const Root = styled.div`
     position: absolute;
@@ -21,7 +23,7 @@ const Root = styled.div`
     bottom: 0;
     display: flex;
     overflow: hidden;
-`
+`;
 
 type Props = {
     children: Array<Node>
@@ -34,6 +36,6 @@ const Main = ({children}: Props): React$Element<typeof Root> => (
             {children}
         </Content>
     </Root>
-)
+);
 
-export default Main
+export default Main;

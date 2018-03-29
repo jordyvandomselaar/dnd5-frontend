@@ -10,6 +10,7 @@ const Joke = styled.span`
 const SkillListContainer = styled.div`
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 `;
 
 const Skills = () => (
