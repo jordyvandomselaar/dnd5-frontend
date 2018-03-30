@@ -37,7 +37,7 @@ class AddableInputList extends Component {
 
         const inputs = this.state.inputs.map((_, index) => (
             <InputContainer key={index}>
-                <TextField label={label} type={type}></TextField>
+                <TextField label={label} type={type}/>
                 <TrashFabContainer>
                     <Fab mini onClick={e => this.removeInput(e, index)}>delete</Fab>
                 </TrashFabContainer>
