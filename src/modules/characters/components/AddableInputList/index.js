@@ -7,6 +7,7 @@ const FabContainer = styled.div`
     float: right;
     padding-top: 30px;
     padding-right: 10px;
+    padding-bottom: 10px;
 `;
 
 const Container = styled.div`
@@ -67,6 +68,10 @@ class AddableInputList extends Component {
         e.preventDefault();
 
         this.setState(prevState => {
+            if (prevState.inputs.length === 1) {
+                return prevState;
+            }
+
             prevState.inputs.splice(index, 1);
 
             return prevState;
