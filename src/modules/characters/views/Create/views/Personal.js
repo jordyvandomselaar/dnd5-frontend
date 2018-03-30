@@ -8,17 +8,26 @@ const Personal = () => (
         <div>
             <strong>Personality Traits</strong>
             <div>
-                <AddableInputList/>
+                <AddableInputList label="Personality Trait"/>
             </div>
         </div>
         <div>
             <strong>Ideals</strong>
+            <div>
+                <AddableInputList label="Ideals"/>
+            </div>
         </div>
         <div>
             <strong>Bonds</strong>
+            <div>
+                <AddableInputList label="Bonds"/>
+            </div>
         </div>
         <div>
             <strong>Flaws (We all have 'em)</strong>
+            <div>
+                <AddableInputList label="Flaws"/>
+            </div>
         </div>
     </Fragment>
 );
