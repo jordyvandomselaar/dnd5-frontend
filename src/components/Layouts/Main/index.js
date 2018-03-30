@@ -23,6 +23,10 @@ const Root = styled.div`
     bottom: 0;
     display: flex;
     overflow: hidden;
+    
+    * {
+      box-sizing: border-box;
+    }
 `;
 
 type Props = {
