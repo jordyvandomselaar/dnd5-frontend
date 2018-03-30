@@ -6,6 +6,7 @@ import Stats from "./views/Stats";
 import Skills from "./views/Skills";
 import BattleRelated from "./views/BattleRelated";
 import Personal from "./views/Personal";
+import ProficienciesAndLanguages from "./views/ProficienciesAndLanguages";
 
 const Create = () => (
     <Fragment>
@@ -17,6 +18,7 @@ const Create = () => (
             <Skills/>
             <BattleRelated/>
             <Personal/>
+            <ProficienciesAndLanguages/>
         </form>
     </Fragment>
 );
