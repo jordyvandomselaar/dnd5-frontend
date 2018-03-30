@@ -1,4 +1,5 @@
 import React, {Fragment} from "react";
+import AddableInputList from "../../../components/AddableInputList";
 
 const Personal = () => (
     <Fragment>
@@ -6,6 +7,9 @@ const Personal = () => (
 
         <div>
             <strong>Personality Traits</strong>
+            <div>
+                <AddableInputList/>
+            </div>
         </div>
         <div>
             <strong>Ideals</strong>
